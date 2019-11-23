@@ -196,7 +196,7 @@ def user_stats(df):
         print("Most recent year of birth: " + str(int(df['Birth Year'].max())))
         print("Most common year of birth: " + str(int(df['Birth Year'].mode()[0])))
     else:
-        print("No Birth Year data.")
+        print("No Birth Year data.\n")
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
