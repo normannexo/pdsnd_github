@@ -210,7 +210,7 @@ def display_rawdata(df):
     if (response == 'yes'):
         i = 0
         
-        print("showing raw data rows + " + str(i + 1) + " - " + str(i+5) + ":\n")
+        print("showing raw data rows " + str(i + 1) + " - " + str(i+5) + ":\n")
         print(df.iloc[i:i+5])
         response = ''
         while (response != 'no'):
